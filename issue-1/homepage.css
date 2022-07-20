@@ -1,0 +1,187 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    width: 102%;
+   height: 480px;
+    background-image: linear-gradient(to right,rgb(43, 0, 255),rgb(0, 252, 252));
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#left{
+    width: 50%;
+    height: auto;
+    color: white;
+    font-family: sans-serif;
+    margin: 100px 100px;
+    font-size:20px;
+}
+#left>h1{
+    font-size:30px;
+    line-height: 20px;
+}
+#left>button{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    
+}
+#right>img{
+    height: 480px;
+    margin-left: 40px;
+}
+
+.container2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 241, 241);
+    margin-top: 2px;
+}
+.container2>#inner1{
+    height: 50%;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2px;
+    line-height: 34px;
+    padding-top: 30px;
+}
+#inner1>button{
+background-color: black;
+color: aliceblue;
+height: 40px;
+width: 120px;
+border-radius: 4px;
+}
+#inner1>h1{
+    font-weight: lighter;
+}
+#inner1>p{
+    font-size: 15px;
+    color: grey;
+}
+.container2>#inner2{
+    height: auto;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.container3{
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 241, 241);
+    margin-top: 2px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+}
+.container3>.inner{
+    text-align: center;
+    height: 450px;
+}
+.container3>.inner>img{
+    height: 250px;
+    margin-top: 50px;
+}
+.container3>.inner:nth-child(1){
+    background-color: rgb(233, 233, 233);
+}
+.container3>.inner:nth-child(2){
+    background-color: rgb(253, 253, 253);
+}
+.container3>.inner:nth-child(3){
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.container3>.inner:nth-child(4){
+    background-color: rgb(208, 208, 208);
+}
+#link1{
+    color: blue;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.container3>.inner>h1{
+    font-weight: lighter;
+}
+.container3>.inner>p{
+    color: grey;
+}
+.container4{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+}
+.container4>img{
+    width: 100%;
+    height: 98%;
+    margin-top: 5px;
+}
+.div>.inimg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.container5{
+    width: 100%;
+    height: 700px;
+    margin-top: 5px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(240, 240, 240);
+    margin: auto;
+}
+.container5>h1{
+    margin-top: 80px;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+.container5>p{
+    color: grey;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.container5>#cards+a{
+    color: blue;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.container5>#cards{
+    width: 85%;
+    height: auto;
+    margin-top: 70px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.container5>#cards>.inner{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.container5>#cards>.inner>img{
+    width: 100%;
+}
+.container5>#cards>.inner>p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.container5>#cards>.inner>a{
+    color: blue;
+    text-decoration: none;
+    font-size: small;
+}
+.container5>#cards>.inner>p:nth-child(5)
+{
+    margin-top: 50px;
+    font-size: small;
+    font-weight: lighter;
+}
