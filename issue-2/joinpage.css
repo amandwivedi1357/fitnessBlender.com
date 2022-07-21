@@ -72,16 +72,48 @@ font-weight: lighter;
 .table{
 width: 90%;
 margin: auto;
-height: 500px;
-border: 1px solid black;
+height: auto;
 border-collapse: collapse;
 }
 table{
 width: 100%;
 }
 td>img{
-    height: 50px;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: -20px;
 }
 .table>tr>td:nth-child(1){
     width: 10%;
+}
+.container3{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+}
+.container3>.inner1{
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+   
+}
+.inner1>h1{
+    margin-top: 80px;
+}
+.container3>.inner1:nth-child(1){
+    width: 60%;
+    margin-left: 90px;
+    margin-right: -60px;
+}
+.inner1>button{
+background-color: rgb(33, 33, 33);
+width: 120px;
+height: 40px;
+color: white;
+border-radius: 4px;
+}
+.inner1>img{
+    height: 350px;
 }
