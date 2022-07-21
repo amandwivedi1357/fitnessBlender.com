@@ -86,6 +86,20 @@ td>img{
 .table>tr>td:nth-child(1){
     width: 10%;
 }
+#h11{
+    font-weight: lighter;
+}
+#button11{
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+}
+#td1{
+    text-align: center;
+}
 .container3{
     width: 100%;
     height: auto;
