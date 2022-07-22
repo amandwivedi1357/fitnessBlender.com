@@ -1,0 +1,40 @@
+#navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    cursor: pointer;
+    border:1px solid grey;
+    font-size: 15px;
+    position: sticky;
+    top:1px;
+   }
+   #navbar>img{
+       height: 80px;
+   }
+   #navbar>p{
+       /* padding-top: 5px; */
+      margin-top:40px;margin-bottom:40px;
+   }
+   #navbar>a:nth-child(8){
+    color: blue;
+    text-decoration: none;
+    padding-top: 40px;
+   }
+  #link{
+      color: blue;
+  }
+   #navbar>img:nth-child(10)
+   {
+      height: 20px;
+      padding-top: 45px;
+      cursor: pointer;
+   }
+   #navbar>img:nth-child(11)
+   {
+      height: 20px;
+      padding-top: 45px;
+      cursor: pointer;
+   }
+   
