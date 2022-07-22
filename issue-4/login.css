@@ -1,0 +1,84 @@
+.upper_cont{
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 80px;
+}
+.upper_cont>h1{
+    font-weight: lighter;
+    text-align: center;
+
+}
+#fb{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(83, 83, 204);
+    align-items: center;
+    color: aliceblue;
+    border-radius: 6px;
+    border-color: aliceblue;
+    font-weight: bold;
+}
+#google{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(196, 34, 34);
+    border-radius: 6px;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+hr{
+    width: 400px;
+    margin-top: 35px;
+    background-color: rgb(156, 147, 135);
+    height: 0.5px;
+}
+.details{
+    width: 30%;
+    height: 250px;
+    margin: auto;
+    margin-top: -20px;
+    
+}
+input[type="text"],input[type="password"]{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    margin: 30px -2px;
+    width: 93%;
+    height: 40px;
+    background-color: rgb(52, 177, 209);
+    border-color: rgb(52, 177, 209);
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(10, 159, 209);
+    cursor: pointer;
+}
+.details>form>a{
+    font-size: 15px;
+    color:rgb(6, 167, 225);text-decoration:none;
+    margin-left: 70px;
+    padding-bottom: 80px;
+    
+}
+form+p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 40px;
+  
+}
+form+p>a{
+    font-size: 15px;
+    color:rgb(6, 167, 225);text-decoration:none;
+   
+}
