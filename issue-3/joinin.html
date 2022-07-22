@@ -105,29 +105,4 @@
       </div>
 </body>
 </html>
-<script>
-    let form = document.querySelector("form");
-   let signupLS=JSON.parse(localStorage.getItem("signup"))||[];
-   form.addEventListener("submit",function(e){
-    e.preventDefault();
-    console.log("enteres fucntion")
-        obj={
-            fname:form.firstname.value,
-            lname:form.lastname.value,
-            email:form.email.value,
-            uName:form.username.value,
-            password:form.password.value,
-            cPassword:form.confirm.value
-        }
-        if(obj.fname==""||obj.email==""||obj.password==""||obj.cPassword==""||obj.lname==""||obj.uName==""){
-            alert("field empty");
-            
-        }
-        else{
-        signupLS.push(obj);
-        localStorage.setItem("signup",JSON.stringify(signupLS))
-        alert("signup successfull");
-        // location.href="Login.html"
-        }
-   })
-</script>
+<script src="signup.js"></script>

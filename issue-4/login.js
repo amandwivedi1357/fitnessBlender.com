@@ -20,7 +20,7 @@ form.addEventListener("submit",function(e){
  })   
  if(isSignedin==false)
  {
-     alert("Wrong credentials")
+     alert("Wrong credentials");
  }
        
  });
