@@ -1,8 +1,14 @@
 let form=document.querySelector("form");
 let signupLS = JSON.parse(localStorage.getItem("signup"))||[];
 form.addEventListener("submit",function(e){
- e.preventDefault();
- if(signupLS.length==0){
+    e.preventDefault();
+//     login(signupLS);
+// })
+
+// function login(signupLS){
+    
+    console.log("hello")
+    if(signupLS.length==0){
      alert("No user exist");
      return
  }
@@ -12,15 +18,18 @@ form.addEventListener("submit",function(e){
  }
  let isSignedin=false;
  signupLS.forEach(function(ele){
-       if(ele.username===obj.username&&ele.password===obj.password){
+    console.log("hello there")
+       if(ele.uName==obj.username&&ele.password==obj.password){
          isSignedin=true;
-         localStorage.setItem("signin",JSON.stringify(ele));
-         alert("signin successfull")
+         console.log("in if")
        }
  })   
  if(isSignedin==false)
  {
      alert("Wrong credentials");
  }
-       
- });
+ else{
+    localStorage.setItem("signin",JSON.stringify(signupLS));
+    alert("signin successfull")
+ }
+})
