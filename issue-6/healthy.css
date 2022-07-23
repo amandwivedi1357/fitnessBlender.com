@@ -4,7 +4,6 @@
 .cont1{
     width: 100%;
     height: 540px;
-    border: 1px solid red;
 }
 .cont1>img{
     width: 100%;
@@ -42,9 +41,10 @@
 .cont2{
     width: 100%;
     height: auto;
-    border: 1px solid red;
     background-color: rgb(213, 227, 235);
     padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: 5px;
 }
 .cont2>.inner1{
     width: 80%;
@@ -63,44 +63,46 @@
 .cont2>.inner2{
     width: 90%;
     height: 350px;
-    border: 1px solid blue;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
-.inner2>div{
+.cont2>.inner2>div{
     width: 100%;
     height: 100%;
-    border: 1px solid black;
     background-color: white;
 }
-.inner2>div>img{
+.cont2>.inner2>div>img{
     height: 150px;
     width: 100%;
 }
-.inner2>div>#blue{
+.cont2>.inner2>div>#blue{
     margin-top: 30pxpx;
     color: blue;
     margin-bottom: -8px;
     margin-left: 30px;
 }
-.inner2>div>h4{
+.cont2>.inner2>div>h4{
     margin-left: 30px;
+    margin-top: 15px;
 }
-.inner2>div>#grey{
+.cont2>.inner2>div>#grey{
     color: grey;
     margin-left: 30px;
-    margin-top: -15px;
+    margin-top: 15px;
 }
-.inner2>div:hover{
+.cont2>.inner2>div:hover{
     border: 3px solid blue;
+    transition: .3s;
 }
 .cont3{
     width: 100%;
-    height: auto;
-    border: 1px solid red;
+    height: 600px;
+    padding-top: 80px;
+    border: 1PX SOLID black;
     background-color: rgb(213, 227, 235);
+    margin-top: 5px;
 }
 .cont3>.inner1{
     width: 80%;
@@ -119,48 +121,44 @@
 .cont3>.inner2{
     width: 90%;
     height: 350px;
-    border: 1px solid blue;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
-.inner2>div{
+.cont3>.inner2>div{
     width: 100%;
     height: 100%;
-    border: 1px solid black;
     background-color: white;
 }
-.inner2>div>img{
+.cont3>.inner2>div>img{
     height: 150px;
     width: 100%;
 }
-.inner2>div>#blue{
+.cont3>.inner2>div>#blue{
     margin-top: 30pxpx;
     color: blue;
     margin-bottom: -8px;
     margin-left: 30px;
 }
-.inner2>div>h4{
+.cont3>.inner2>div>h4{
     margin-left: 30px;
+    margin-top: 15px;
 }
-.inner2>div>#grey{
+.cont3>.inner2>div>#grey{
     color: grey;
     margin-left: 30px;
-    margin-top: -15px;
+    margin-top: 15px;
 }
-.inner2>div:hover{
+.cont3>.inner2>div:hover{
     border: 3px solid blue;
 }
-
 .cont4{
     width: 100%;
-    height: auto;
-    border: 1px solid red;
-    background-color: rgb(213, 227, 235);
-    margin-top
-    
-    : 80px;
+    height: 600px;
+    background-color: rgb(251, 251, 251);
+    margin-top: 100px;
+    padding-top: 80px;
 }
 .cont4>.inner1{
     width: 80%;
@@ -172,48 +170,282 @@
 }
 .cont4>.inner1>h1{
     font-weight: lighter;
+    margin-left: -15px;
 }
 .cont4>.inner1>h4{
     color: blue;
+    margin-top: 40px;
+    margin-right: -120px;
 }
 .cont4>.inner2{
     width: 90%;
     height: 350px;
-    border: 1px solid blue;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
-.inner2>div{
+.cont4>.inner2>div{
     width: 100%;
     height: 100%;
-    border: 1px solid black;
     background-color: white;
 }
-.inner2>div>img{
+.cont4>.inner2>div>img{
     height: 150px;
     width: 100%;
 }
-.inner2>div>#blue{
+.cont4>.inner2>div>#blue{
     margin-top: 30pxpx;
     color: blue;
     margin-bottom: -8px;
     margin-left: 30px;
 }
-.inner2>div>h4{
+.cont4>.inner2>div>h4{
     margin-left: 30px;
+    margin-top: 15px;
 }
-.inner2>div>#grey{
+.cont4>.inner2>div>#grey{
     color: grey;
     margin-left: 30px;
-    margin-top: -15px;
+    margin-top: 15px;
 }
-.inner2>div:hover{
+.cont4>.inner2>div:hover{
     border: 3px solid blue;
 }
-.cont41{
+.cont5{
     width: 100%;
-    height: 550px;
-    border: 1px solid blue;
+    height: 600px;
+    background-color: rgb(251, 251, 251);
+    margin-top: -75px;
+    padding-top: 80px;
+}
+.cont5>.inner1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.cont5>.inner1>h1{
+    font-weight: lighter;
+    margin-left: -15px;
+}
+.cont5>.inner1>h4{
+    color: blue;
+    margin-top: 40px;
+    margin-right: -120px;
+}
+.cont5>.inner2{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.cont5>.inner2>div{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.cont5>.inner2>div>img{
+    height: 150px;
+    width: 100%;
+}
+.cont5>.inner2>div>#blue{
+    margin-top: 30pxpx;
+    color: blue;
+    margin-bottom: -8px;
+    margin-left: 30px;
+}
+.cont5>.inner2>div>h4{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont5>.inner2>div>#grey{
+    color: grey;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont5>.inner2>div:hover{
+    border: 3px solid blue;
+}
+.cont6{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(228, 226, 242);
+    margin-top: -75px;
+    padding-top: 80px;
+}
+.cont6>.inner1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.cont6>.inner1>h1{
+    font-weight: lighter;
+    margin-left: -15px;
+}
+.cont6>.inner1>h4{
+    color: blue;
+    margin-top: 40px;
+    margin-right: -120px;
+}
+.cont6>.inner2{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.cont6>.inner2>div{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.cont6>.inner2>div>img{
+    height: 150px;
+    width: 100%;
+}
+.cont6>.inner2>div>#blue{
+    margin-top: 30pxpx;
+    color: blue;
+    margin-bottom: -8px;
+    margin-left: 30px;
+}
+.cont6>.inner2>div>h4{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont6>.inner2>div>#grey{
+    color: grey;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont6>.inner2>div:hover{
+    border: 3px solid blue;
+}
+.cont7{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(228, 226, 242);
+    margin-top: -75px;
+}
+.cont7>.inner1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding-top: 80px;
+}
+.cont7>.inner1>h1{
+    font-weight: lighter;
+    margin-left: -15px;
+}
+.cont7>.inner1>h4{
+    color: blue;
+    margin-top: 40px;
+    margin-right: -120px;
+}
+.cont7>.inner2{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.cont7>.inner2>div{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.cont7>.inner2>div>img{
+    height: 150px;
+    width: 100%;
+}
+.cont7>.inner2>div>#blue{
+    margin-top: 30pxpx;
+    color: blue;
+    margin-bottom: -8px;
+    margin-left: 30px;
+}
+.cont7>.inner2>div>h4{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont7>.inner2>div>#grey{
+    color: grey;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont7>.inner2>div:hover{
+    border: 3px solid blue;
+}
+.cont8{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(228, 226, 242);
+    margin-top: 5px;
+    padding-top: 80px;
+}
+.cont8>.inner1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.cont8>.inner1>h1{
+    font-weight: lighter;
+    margin-left: -15px;
+}
+.cont8>.inner1>h4{
+    color: blue;
+    margin-top: 40px;
+    margin-right: -120px;
+    margin-bottom: 10px;
+}
+.cont8>.inner2{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.cont8>.inner2>div{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.cont8>.inner2>div>img{
+    height: 150px;
+    width: 100%;
+}
+.cont8>.inner2>div>#blue{
+    margin-top: 30pxpx;
+    color: blue;
+    margin-bottom: -8px;
+    margin-left: 30px;
+}
+.cont8>.inner2>div>h4{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont8>.inner2>div>#grey{
+    color: grey;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont8>.inner2>div:hover{
+    border: 3px solid blue;
 }
