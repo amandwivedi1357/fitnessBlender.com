@@ -1,0 +1,244 @@
+.txt_image{
+    width: 100%;
+    height: 450px;
+}
+.txt_image>img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.content>.txt{
+    position: absolute;
+    top: 180px;
+    left: 65px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.content>.txt0{
+    position: absolute;
+    top: 170px;
+    left: 65px;
+    color: aqua;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.cont2{
+    width: 100;
+    height: 480px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: -100px;
+}
+.cont2>h1{
+    margin-top: 180px;
+    font-weight: lighter;
+}
+.cont2>p{
+    color: grey;
+    font-weight: lighter;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: small;
+}
+.cont3{
+    width: 100%;
+    height: 480px;
+}
+.cont3>a>img{
+    width: 100%;
+    height: 100%;
+}
+.cont4{
+    width: 100%;
+    height: auto;
+    background-color: rgb(25, 21, 40);
+    padding-bottom: 100px;
+    margin-top: -60px;
+}
+.cont4>h1{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    padding-top: 120px;
+}
+.cont4>p{
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+.grid1{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+.grid1>div{
+    width: 100%;
+    height: 100%;
+}
+.grid1>div>img{
+    height: 50px;
+}
+.grid1>div>h4{
+    font-weight: lighter;
+}
+.grid1>div>p{
+    font-size: 12px;
+    color: rgb(233, 233, 233);
+    line-height: 30px;
+}
+.cont5{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: -5px;
+}
+.cont5>img{
+    height: 315px;
+    width: 100%;
+}
+i{
+    color: blue;
+    height: 20;
+}
+.cont6{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.cont6>h1{
+margin-top: 100px;
+font-weight: lighter;
+margin-bottom: 80px;
+}
+.cont6>p{
+color: grey;
+line-height: 30px;
+padding-bottom: 120px;
+}
+.cont7{
+    width: auto;
+    height: 500px;
+    display: flex;
+    position: relative;
+  
+}
+
+.image {
+    width: 50%;
+    height: 500px;
+    margin-left: 0px;
+    background-image: url(https://d18zdz9g6n5za7.cloudfront.net/about/bio-daniel.jpg);
+    background-size: cover;
+}
+
+.image1{
+    background-image: url(https://d18zdz9g6n5za7.cloudfront.net/about/bio-kelli.jpg);
+    width: 50%;
+    height: 500px;
+    
+    background-size: cover;
+}
+.image>img{
+    width: 665px;
+    height: 500px;
+}
+
+.lay{
+    position: relative;
+    top: 4%;
+    z-index: 9999;
+    background-color: white;
+    width: 495px;
+    margin: auto;
+    margin-top: 250px;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: sans-serif;
+}
+.lay>h1{
+    font-weight: bold;
+}
+.lay>p:nth-child(2){
+    color: grey;
+}
+.lay>p:nth-child(3)
+{
+    color: blue;
+    cursor: pointer;
+   
+}
+.lay>p:nth-child(3):hover{
+    text-decoration: underline;
+}
+.cont8{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+}
+.cont8>.white,.cont8>.blue{
+    width: 100%;
+    height: 198px;
+    display: flex;
+    justify-content: space-around;
+}
+.cont8>p{
+    text-align: center;
+   color: grey;
+   margin: 10px;
+}
+.cont8>.white>h1:nth-child(1){
+margin-top: 100px;
+font-family: sans-serif;
+}
+.cont8>.white>h1:nth-child(2){
+    margin-top: 105px;
+    font-size: 25px;
+    }
+ .cont8>.white>h1:nth-child(3){
+  margin-top: 100px;
+        }
+ .cont8>.white>h1:nth-child(4){
+ margin-top: 100px;
+ font-weight: lighter;
+  }
+  .cont8>.white>h1:nth-child(5){
+    margin-top: 100px;
+    }
+    .blue{
+       font-family: sans-serif;
+        background-color: rgb(0, 208, 219);
+    }
+    .blue>h1{
+        color: aliceblue;
+        margin-top: 100px;
+    }
+    .blue>button{
+        width: 250px;
+        height: 45px;
+        margin-top: 105px;
+        color: aliceblue;
+        border-radius: 4px;
+        background-color: rgb(37, 14, 14);
+    }
+    .blue>button:hover{
+        background-color: rgb(101, 90, 90);
+    }
