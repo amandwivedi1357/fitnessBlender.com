@@ -6,22 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="healthy.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Healthy Living</title>
 </head>
 <body>
-    <div id="navbar">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA81BMVEX///9AQEIvLzGurq4Af8IzMzY9PT84ODrU1NQAq+gqKi35+fkAissApuRnZ2impqbOzs8Ag8ZHR0gAgMMAmtonJyri4uK9vb2KiopZWVoAer5MTE0Ak9Tr6+tiYmMAouKcnJ3n5+dwcHGSkpLHx8eCgoJcXF3BwcGNjY6ioqJ7e3wAdbsAmNsAkdbf8PkAiM/u+f0fHyGIyewAAAAAcLvA6Pmh2fV1zPJZw/BAuu7E6Pkfs+2s3vfT7vpmw++Cye4XFxxatuUqpN2g0Ou92/BtteAmmtSr0+tTpNaTw+NqrdmMveDJ3+9kptQ2jshOl8sAZLO8G/bcAAAML0lEQVR4nO2bCVvbOBPHHRlZrk1zge04ISHkgpwkbbYH9GBLu5Sj7X7/T7PSyLLlI2FfSpe3zzO/fZ6tPb7090gzIzkYBoIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIL8Xiz/ePX6zVvOm9ev3i2eujWPztnr82fPn8U8f/7szbvlUzfq8Vh8fK6pi1Uevjl76pY9DosPhwX6gMPzP566dY/AZn2g8e37p27gT/KuqH+m++rrp27jT/HhUMaVQ87zDWKfn/++IWd5fijEvf346t3ns7N3Lz6cC535nvrqqRv6UBZc3fmL9Dg7+/hMODPNs39xs6PjSnccHP2alj6QxeHh66Iw8v7DYUbk7N5uGoQeoRxvFPyClj6Q5ezjpoaL/KFz+G77rdyyY5UkzHr0hj6U5dtthdn7c13j4Yft9wpZSUHAh+4jNvTB3JfKP840hedbTz2h0n2UMqvO9+3Qo41Ha+iv4/P+YcK2E9sroc8i/cAcXnAXtgnvsk7/v2rnT7BIBO5vCzVj4UJrBD1T/C8gYr/03zTy50gkzraN2bKIMiwZeibVFR6b/UnH/KXt/AkWM6VwW3Ha4grZMNn3Ra+lk2iPEcZI5Ve28h7csxcf/vy0KRucRRJn26ZRdaFQ12ASxwmVT7k3S/TpFH7+czab7c9fiG3ftPMnvJjd78N6ToNr+/H2kyq8PJztc2Yy23WIUx/nEtmnfTglGoeLooiTV6jzhArPpL79/U+w6/L4YFFvmKksF/IlKGUvCm4ECjfGki1H3eLCoG0PBna74HS/WrVzhS9YC842jC9zqU+13ndk2nYyGj+CRLWXS4xB4wSyYfmkIRiK7gkbA/7wId/QjopyZ8BtwyrfqE5alNZ7x5n72UPLIxyvfuLr9vY4dBxud1gvuM8KLD9FDtyfX0nLMVGVpXOiv9slP3H2p9qbZ9PGCZEVm8UATzRebDjcbe6KbyRHiSgCTIdvdA1/5DBL2EldH/3tMpjlJY4Wn8eEqsrXIvVq3pq5kfFe6VN9NMpiSqM+br7M9meXauf0KqOwn5SkUJaKh4sN0TFdL3WM9aPHsOFgpVpWslbJ2686qbvRunrVE0e3Wxey109IkRW4m8cK5ypKdvWbk9YgPnkx3088d/rlERTyTd3uqZdvyxmKBQUunBZGb9+RbuIIp1ktd7NVenA+UxzE/a+Reqrl9OLzPx0oP3O18aa67MKTjfGAlwNd4UvPk42m4thFw0i6ikU8/h8802pF9wJZFimdVCr9FlxIxnCgBdvDge1XzdCxmAws9bSVJuFmMT+Imd8p6yTtjBKMJODyNM73d/N5RiGvRKOM7wKGphBMUSxVxyKFDDqJL/uZnHEZfaj2WNR7qiLNlKi4qC36AlWduUqkz48c3TqgWmD6lAg8+Cu29jIK+YPL8q0sEr9dznOhpiAfxgphJ50tol7ai3alqg68Kti0Yk+0iRJviy0nPhB1LrCSrBXQXRiHEFk/Z9xI5ftMRH05mOfrt4cojPdD8VhPbEEwJ1r2EJGBifIWElmuaii2AqeJwtOk8Z28Qv7obvpS/k4+P4JCbT8Q+w5kUehEfsyROGTBoogFI64X+G3dU5H1OG3lLDWFB4m5UGFmIvt+fjDPpouHKEx6nBxNRPQV2Yl40a4Ab4N7x0R2KX6wXh6rAdcttKYVzrXYX6ywtNILottHUph0UplRIF6EhQ3wwD+dOFlbFnV6UZvCQmtK4WkyDDf58ETXIi55jF6qzf8Tha0tCo1GXOuIF+REhWXaSmI3agrvkkcVj8NUJ706/ZUKRzIbZngZjTG/3xIrslJRnEGLrcZpHEy1QFMUSy0nXc4ezNMv5XEVinRlhXY1TVJbGe1qUOmHUMg4g0Krqlf/2lWcakGol1NIRulJydWpuORR8mGRQljQYveutFZFyGXZlbwq0a03hQpzNU12ccWV1+SfuV0hVDzdf6HQdoqaLjnOuALSZN6qJiPXp7FE7SbDTF3ayc4qv8Blfxk5tisMLX2EbFEYVZ/j5NSy2mo7rWRqFCqF7ZVmhReplqHvTot8mJok0FJ2Zmp83hFX1LJzi3sVwn1ZOLCPoQjcovAYBhMNg7ZY6anUCe1EJ42Y5XUGUVSFkqECUi2vLK0u+CduhFtTCne0ZRd9fsinqFmW8rXU8qH0HoU2TKF4jKRQym9RGJXGPLVRy4EJEetA+yHhW4SWG/2JBeeIIqibs3rx6sRXpXBPCxtBPMdfTfLLHu6BvKJWsBS1XSF3gOr55XsUumG2+l91QXnUNEstGdDhRqvkak8p1Dxiq3WaXmp9JGrHd+n32tf8sfsUtuP5rijWtinkrXb0iB5P4Popc4mOpNVLWUknuetSddO9a+1REKydSYE+YxkJ3N3J12y8AuY51xtrBt4j6SpJEG7Po7BOs+KD21xRSoj22AvKT47zbtDiZQqkfj53H8Z9yQ719RsVb6ualaYr6JtahO6SkFcQ/cKv1IvdSGCtWXQ4EPjbDL7ZGDa6x6LBPhzUjpmZk+1u2fJWNGwEqdRo8+pFlONeONbGkH1SZBVNnkYK9Rb746pRyLU6u7ZzW3zGf0T76KhgYbTY+nUvUpivwbIsfjRrscLf52cnyok7BektxfKmuRcLbD6tC/83biLH7G096+5mnTiwtlcrPsuWyGHTtpM64yg6AovuR9HSu109iq9x03eAS494uR1doj/DrASxyQ8q8VckP/4I5NupIOnWdqDVUy04Lq70Tri8u92dag6s1dYF2V5gRXNyqJkGFxfxgf5Kzthhqba/kqVbHfbkFV5ZNoo60YlcckVe5JU1jYM6mIbwRtplD2KL1NjyVnKeYa+c9Gfnz+s9wY5emn6f7n69vb68vLq+/bbbnDZ39nSa34oF8noy7HQ6dQqr9gMtFXR54BcQE3bkR9MQ9iyrXq8zR34F4PMPieNCwgzDUCSN+D6Bx7N0I/RW4gFtRp1Jt8ETFEjkpRvMR9y6pVW/wO10R5By4nSnyYVNp9NmcydHwawiUgjLLEaXkqxCov0io8tK8LEgUgiL4/6IEdG8kpN0bVNmbp8RlVHbKwbL0z5kvDJtgXfLjEmFjIkLeoxlFRo/pAo9YVyt88IUzY2f8iOFNlltVUjrTLx2pRCucUswRytQaAyJSuF9Gia38T1P9mzXgrXUkA3FPM90+L9ZhcYuSJzeaKab6SaB6815pcVOAjOo1OE3NGmFPZiyQ/3fJcM+Ye20QnGKUEhNmNDbmsJOXP63SFIf8cNKboOIOjQkgUlowMh4QHIKXSkxFUBuir3Y3BRloAWW+CzhyM8o6XHIIIC89EHLxBhxb6QVBtBgUXRB9JASxGsZ0pXyq+5hrV+YpGzILlFmlJX5rXIKeT3NBxwfeXoIvV43C5huqwxabDLuirHfyyqk9Y4gVArblPY7KYXSYyWIVZ2OCEUmnzo5hLBkMVp+0IoVqh95VMD9QqFLLeoWKuRjUeiZpvLcXXOa0zfd+rcJ0Tj06crfNg5F06oek7MOpbAHU54S0cYhrfd6zAqTCrlDu8ltAqIWW3vQjaFLVF9WjQ0Kucu4nun3lO1mnda4/rF9eShSaMDS9XaF/MUrheAXk0APzEWagaMvXpHou5KIoS6JJmpVB0KO7PS+sVGhsfi+FhJTGhbf1tNY5HR9WXihppB2q4NBUGZifXxAGN/huKKXlk1A9VJDRHWpkPWDwOwRmSNLrC9PVAoN03NgHcUWvw4pMWa22/4QRmaXkO6R2zbloIgUGlsUCjcKPel+uLxtriEtTtff7q226wziBIWEPHBkifOSq+WxE1Z1Ya7YdeQAKsG0lolrCPHkVzaLUThR1DSmA/PbEwf0sBX32JFFCK96qAeT+IlHHH5fR/6QLow/cwbeJoUi+a+n6+zcdnH7fbpe//gXfx3UKwN96Gn2SO6FXGGlI7c7wh3mSOY3PxRpDOy9ftQ5yxGi0cFILkY0OmKvb0EHrfDEXupFAWdQLjFL/RZ5MlJrZoOR+ihZxNX39d8/cs5yF/8/f/2U/u3Nhl/ibGVx/ePvm99n+vdA0pMLBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQjX8Ak602rOtMc1EAAAAASUVORK5CYII=" alt="">
-        <p>workout</p>
-        <p>programs</p>
-        <p>health</p>
-        <p>community</p>
-        <p>about</p>
-        <p>store</p>
-        <a style="color: blue;text-decoration:none" href="">Membership</a>
-        <p><a id="link"href="">Hi! sign in</a><br> my fitness</p>
-        <img src="data:image/png;base64,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" alt="">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH_hyIY_hMI8ybglXXaIqbvuWrZIny_oGmTA&usqp=CAU" alt="">
-     </div>
+  <header>
+    <img src="https://cloudfront.fitnessblender.com/assets/img/logos/fb-logo.svg" >
+    <nav>
+        <div class="nav_bar">
+            <Ul>
+                <LI class="now_active">WORKOUT
+                    <ul>
+                        <li><i class="fa-solid fa-person-walking"></i><br> WORKOUT VIDEOS
+                        </li>
+                        <li><i class="fa-solid fa-fingerprint"></i><br>CUSTOME WORKOUTS  </li>
+                    </ul>
+                </LI>
+
+                <LI>PROGRAMS
+                    <ul>
+                        <li><i class="fa-solid fa-list"></i><br> WORKOUT PROGRAMS </li>
+                        <li> <i class="fa-solid fa-egg"></i><br>MEAL PLAN</li>
+                        <li> <i class="fa-solid fa-gears"></i><br> PILOT PROGRAMS  </li>
+                        <li><i class="fa-solid fa-clock-rotate-left"></i><br>ROUTINE</li>
+                    </ul>
+                </LI>
+                <LI>HEALTHY LIVING
+                    <ul>
+                        <li> <i class="fa-regular fa-brain"></i> <br> WORKOUT PROGRAMS </li>
+                        <li> <i class="fa-solid fa-pot-food"></i> <br>MEAL PLAN</li>
+                        <li> <i class="fa-regular fa-monitor-waveform"></i><br> PILOT PROGRAMS  </li>
+                    </ul>
+                </LI>
+                <LI>COMMUNITY
+                    <Ul>
+                        <li><i class="fa-solid fa-list"></i><br> WORKOUT PROGRAMS </li>
+                        <li> <i class="fa-solid fa-egg"></i><br>MEAL PLAN</li>
+                        <li> <i class="fa-solid fa-gears"></i><br> PILOT PROGRAMS  </li>
+                    </Ul>
+                </LI>
+       <a href="abstracted-cactus-1793\issue-5\about.html">         <LI>ABOUT
+                    <ul>
+                        <li><i class="fa-solid fa-list"></i><br> WORKOUT PROGRAMS </li>
+                        <li> <i class="fa-solid fa-egg"></i><br>MEAL PLAN</li>
+                        <li> <i class="fa-solid fa-gears"></i><br> PILOT PROGRAMS  </li>
+                        <li> <i class="fa-solid fa-egg"></i><br>MEAL PLAN</li>
+                    </ul>
+                </LI></a>
+                <LI>STORE</LI>
+                <LI>MEMBERSHIP</LI>
+
+                </Ul>
+
+                <ul class="nd">
+                <LI class="login_main"><H2>Hi! Sing in</H2>
+                    <p>MY FITNESS</p> 
+                    <ul class="login">
+                        <li>
+                            <div>
+                                <h1>JOIN FOR FREE</h1>
+                                <P>Join for free and start building and tracking your workouts, get support from other Fitness Blender members and more!</P>
+                                <H2>JOIN</H2>
+                                <h3>SIGN IN</h3>
+                            </div>
+                        </li>
+                    </ul>
+                </LI>
+                <LI><i class="fa-solid fa-magnifying-glass"></i></LI>
+                <LI><i class="fa-solid fa-bag-shopping"></i></LI>
+            </Ul>
+        </div>
+    </nav>
+</header>
      <div class="cont1">
           <img src="https://d18zdz9g6n5za7.cloudfront.net/healthy_living/masthead-healthy-xs@2x.jpg" alt="">
         <div class="content">
@@ -88,38 +144,226 @@
             </div>
 
 
-             <!-- <div class="cont4">
-                <div class="inner1">
-                    <h1>Health</h1>
-                    <h4>View All Fitness Articles </h4>
-                    </div>
-                    <div class="inner2">
-                     <div>
-                       <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/640/640-1195-what-is-rib-flare-and-how-to-tell-if-you-have-it-9bb4.jpg" alt="">
-                       <p id="blue">FITNESS</p>
-                       <h4>What is Rib Flare and How to Tell if You Have It</h4>
-                       <p id="grey">Common causes of rib flare and tips for maintaining rib health</p> 
-                     </div>
-                     <div>
-                        <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1126-looking-to-start-a-family-what-you-need-to-know-about-exercise-and-fertility-a2cc.jpg" alt="">
-                        <p id="blue">FITNESS</p>
-                        <h4>Looking to Start a Family? What <br> You Need to Know About Exercise <br> and Fertility</h4>
-                     </div>
-                     <div>
-                        <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1125-how-to-do-a-burpee-fitnessblenders-comprehensive-guide-846b.jpg" alt="">
-                        <p id="blue">FITNESS</p>
-                        <h4>How to Do A Burpee <br>:FitnessBlender’s Comprehensive <br> Guide</h4>
-                     </div>
-                     <div>
-                        <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1039-new-to-running-heres-what-you-should-know-a558.jpg" alt="">
-                        <p id="blue">FITNESS</p>
-                        <h4>New to Running? Here’s What You <br> Should Know</h4>
-                     </div>
-                    </div>
-            </div>  -->
-           
-            <div class="cont41">
-
+            <div class="cont4">
+             <div class="inner1">
+          <h1>NUTRITION</h1>
+          <h4>View All Nutrition Articles</h4>
+        </div>
+          <div class="inner2">
+            <div>
+                <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1134-the-relationship-between-food-and-mood-9c6d.jpg" alt="">
+                <p id="blue">NUTRITION</p>
+                <h4>The Relationship Between Food and Mood</h4>
             </div>
+            <div>
+                <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-994-7-health-benefits-to-eating-meals-as-a-family-8390.jpg" alt="">
+                <p id="blue">NUTRITION</p>
+                <h4>7 Health Benefits to Eating Meals as a Family</h4>
+            </div>
+            <div>
+                <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-944-eating-disorders-explained-contributing-factors-and-lived-experiences-ade2.jpg" alt="">
+                <p id="blue">NUTRITION</p>
+                <h4>Eating Disorders Explained, Contributing Factors, and Lived Experiences</h4>
+            </div>
+            <div>
+                <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-908-understanding-sugar-addiction-and-ways-to-moderate-sugar-consumption-92d4.jpg" alt="">
+                <p id="blue">NUTRITION</p>
+                <h4>Understanding Sugar Addiction and Ways to Moderate Sugar Consumption</h4>
+            </div>
+          </div>
+             
+            </div>
+            <div class="cont5">
+                <div class="inner1">
+             <h1>Healthy RECIPES</h1>
+             <h4>View All Healthy Recipes Articles</h4>
+           </div>
+             <div class="inner2">
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1192-turkey-burger-mini-melt-bc6d.jpg" alt="">
+                   <p id="blue">HEALTHY RECIPES</p>
+                   <h4>Turkey Burger Mini Melt</h4>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1154-tofu-pad-thai-with-mango-peanut-sauce-9b3b.jpg" alt="">
+                   <p id="blue">HEALTHY RECIPES</p>
+                   <h4>Tofu Pad Thai with Mango Peanut Saucey</h4>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1222-berry-yogurt-bowl-with-honey-and-almonds-9693.jpg" alt="">
+                   <p id="blue">HEALTHY RECIPES</p>
+                   <h4>Berry Yogurt Bowl with Honey and Almonds</h4>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1180-no-churn-chocolate-and-strawberry-ice-cream-8720.jpg" alt="">
+                   <p id="blue">HEALTHY RECIPES</p>
+                   <h4>No-Churn Chocolate and Strawberry Ice Cream</h4>
+               </div>
+             </div>
+               </div>
+
+               <div class="cont6">
+                <div class="inner1">
+             <h1>EXPERTS</h1>
+             <h4>View All Experts Articles</h4>
+           </div>
+             <div class="inner2">
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1126-looking-to-start-a-family-what-you-need-to-know-about-exercise-and-fertility-a2cc.jpg" alt="">
+                   <p id="blue">EXPERTS</p>
+                   <h4>Looking to Start a Family? What You Need to Know About Exercise and Fertility</h4>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1039-new-to-running-heres-what-you-should-know-a558.jpg" alt="">
+                   <p id="blue">EXPERTS</p>
+                   <h4>New to Running? Here’s What You Should Know</h4>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1030-10-exercises-you-can-do-at-work-b9c7.jpg" alt="">
+                   <p id="blue">EXPERTS</p>
+                   <h4>10 Exercises You Can Do At Work</h4>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1031-6-ways-to-overcome-gym-anxiety-9733.jpg" alt="">
+                   <p id="blue">EXPERTS</p>
+                   <h4>6 Ways to Overcome Gym Anxiety</h4>
+               </div>
+             </div>
+               </div>
+               <div class="cont7">
+                <div class="inner1">
+             <h1>MENTAL HEALTH</h1>
+             <h4>View All Mental Health Articles</h4>
+           </div>
+             <div class="inner2">
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1252-how-often-should-you-meditate-8e59.jpg" alt="">
+                   <p id="blue">MENTAL HEALTH</p>
+                   <h4>How Often Should You Meditate?</h4>
+                   <p id="grey">How Frequently to Meditate to Reap Health Benefits</p>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1241-behavioral-activation-why-exercise-can-improve-depression-b37b.jpg" alt="">
+                   <p id="blue">MENTAL HEALTH</p>
+                   <h4>Exercise Guilt: How It's Helpful and How It's Harmful</h4>
+                   <p id="grey">Plus, 6 ways to manage exercise guilt</p>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1030-10-exercises-you-can-do-at-work-b9c7.jpg" alt="">
+                   <p id="blue">MENTAL HEALTH</p>
+                   <h4>6 Tips for Managing Fitness Procrastination</h4>
+                   <p id="grey">Plus, why we procrastinate in the first place</p>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/blog/320/320-1031-6-ways-to-overcome-gym-anxiety-9733.jpg" alt="">
+                   <p id="blue">MENTAL HEALTH</p>
+                   <h4>How Exercise Can Help With Depression</h4>
+                   <p id="grey">Use behavioral activation to boost your mood and exercise more regularly</p>
+               </div>
+             </div>
+               </div>
+
+               <div class="cont8">
+                <div class="inner1">
+             <h1>WELLNESS VIDEOS</h1>
+             <h4>View All Videos</h4>
+           </div>
+             <div class="inner2">
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/wellness-videos/320/320-35-guided-meditation-for-stillness-a9e0.jpg" alt="">
+                   <p id="blue">WELLNESS</p>
+                   <h4>Guided Meditation for Stillness</h4>
+                   <p id="grey">14-Minute Practice for Relaxation and Stress Reduction Through Stillness</p>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/wellness-videos/320/320-35-guided-meditation-for-stillness-a9e0.jpg" alt="">
+                   <p id="blue">WELLNESS</p>
+                   <h4>10-Minute Guided Meditation for Open Mindedness and Flexibility</h4>
+                   <p id="grey">Improve your open mindedness to enhance your well-being and relationships</p>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/wellness-videos/320/320-35-guided-meditation-for-stillness-a9e0.jpg" alt="">
+                   <p id="blue">WELLNESS</p>
+                   <h4>Guided Meditation for Working Through Resentment</h4>
+               </div>
+               <div>
+                   <img src="https://d18zdz9g6n5za7.cloudfront.net/wellness-videos/320/320-35-guided-meditation-for-stillness-a9e0.jpg" alt="">
+                   <p id="blue">WELLNESS</p>
+                   <h4>10-Minute Post-Workout Guided Meditation for Mind-Body Connection</h4>
+                   <p id="grey">Use behavioral activation to boost your mood and exercise more regularly</p>
+               </div>
+             </div>
+               </div>
+               <section class="footer">
+                <div class="footer_main">
+                    <div class="footer_logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOcsbb8IifSz0_aV4LK81g6K_FCBV0UyW82A&usqp=CAU" alt="">
+                        <h2>WORKOUT COMPLETE <sup>TM</sup> </h2>
+                    </div>
+        
+                    <div class="link_list">
+                        <div class="list_items">
+                            <ul>
+                                <li>WORKOUTS</li>
+                                <li style="color: grey" >WORKOUT VIDEOS</li>
+                                <li  style="color: grey" >CUSTOM WORKOUT</li>
+                                <li  >PROGRAMS</li>
+                                <li style="color: grey">MEAL PLANS</li>
+                                <li style="color: grey">PILOT PROGRAMS</li>
+                                <li  style="color: grey">ROUTINES</li>                        
+                            </ul>
+                        </div>
+        
+                        <div class="list_items">
+                            <ul>
+                                <li>HEALTHY LIVING</li>
+                <li style="color: grey">FITNESS</li>
+                <li style="color: grey">HEALTH</li>
+                <li style="color: grey">NUTRITION</li>
+                <li style="color: grey">HEALTHY RECIPES</li>
+                <li style="color: grey">EXPERTS</li>                        
+                            </ul>
+                        </div>
+        
+                        <div class="list_items">
+                            <ul>
+                                <li>ABOUT</li>
+                <li style="color: grey">CAREERS</li>
+                <li style="color: grey">TUTORIALS</li>
+                <li style="color: grey">OUR TEAMS</li>
+                <li style="color: grey">B2B OPTIONS</li>                    
+                            </ul>
+                        </div>
+        
+                        <div class="list_items">
+                            <ul>
+                                <li>MEMBERSHIP</li>
+                <li>FB PLUS</li>
+                <li>COMMUNITY</li>
+                <li>BLOG</li>
+                <li>CONTACT US</li>
+                <li>FAQs</li>
+                <li>STORE</li>                       
+                            </ul>
+                        </div>
+        
+                        
+        
+                    </div>
+        
+                
+                </div>
+        
+                <div class="footer_end">
+                    <p>Copyright © 2022 Fitness Blender. All rights reserved. Terms of Use Privacy Policy</p>
+                    <p id="fab">
+                        <i class="fa-brands fa-youtube"></i> 
+                        <i class="fa-brands fa-pinterest"></i> 
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i> 
+                    </p>
+                    
+                </div></section>
         </body>
 </html>
