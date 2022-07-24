@@ -1,58 +1,78 @@
-.Footer{
-    width: 100%;
-    height: auto;
-    border: 1px solid white;
-    background-color: rgb(31, 31, 51);
-    margin-top:180px;
-    display: flex;
+.footer {
+    background-color: rgb(44, 41, 62);
+    font-family: sans-serif;
+    margin-top: 120px;
 }
-.Footer>#logo{
-    width: 40%;
-    height: 80%;
+
+.footer_main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: whitesmoke;
+    border-bottom: 0.5px dashed grey;
 }
-.Footer>#logo>img{
-    height: 50px;
-    margin-top: 100px;
-    margin-left: 80px;
+
+.footer_logo img {
+    width: 200px;
 }
-.Footer>#logo>p{
-    margin-left: 80px;
-    color: rgb(161, 151, 151);
-    margin-top: -2px;
-    font-size: smaller;
+
+.footer_logo h2 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-weight: 400;
 }
-.Footer>#logo>p>sup{
-    font-size: 5px;
-}
-.Footer>#list{
-width: 60%;
-height: 80%;
-}
-.Footer>#list>#listitem{
-    margin-top: 80px;
-    font-size: small;
-    line-height: 40px;
-    color: aliceblue;
-    display: flex;
+
+
+
+.link_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: -50px;
+    cursor: pointer;
     
 }
-ul{
+
+.list_items {
+    width: 200px;
+}
+
+.list_items ul {
+    font-size: 12px;
     list-style: none;
-    cursor: pointer;
+
 }
-hr{
-    background-color: rgb(255, 0, 0);
-    margin-right: 180px;
+
+.list_items li {
+  line-height: 40px;
 }
-.bottom{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(31, 31, 51);
+
+.footer_end {
+    padding-top:  30px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    display: flex;
 }
-.bottom>p{
-color: grey;
-margin-top: 0px;
-padding-top: 70px;
-margin-left: 30px;
-font-size: 15px;
+
+.footer_end p {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: -20px;
+    margin-bottom: 0px;
+} 
+
+#fab {
+    float: right;
+    margin-left: 250px;
+    width: 40%;
+}
+
+#fab i {
+    font-size: 20px;
+    margin-left: 30px;
 }

@@ -9,7 +9,8 @@
 .upper_cont>h1{
     font-weight: lighter;
     text-align: center;
-
+    margin-top:-50px;
+    margin-bottom: 30px;
 }
 #fb{
     width: 200px;
@@ -34,7 +35,7 @@
     
 }
 hr{
-    width: 400px;
+    width: 520px;
     margin-top: 35px;
     background-color: rgb(156, 147, 135);
     height: 0.5px;
@@ -50,6 +51,7 @@ input[type="text"],input[type="password"]{
     width: 90%;
     height: 30px;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 input[type="submit"]{
     margin: 30px -2px;
@@ -58,6 +60,10 @@ input[type="submit"]{
     background-color: rgb(52, 177, 209);
     border-color: rgb(52, 177, 209);
     border-radius: 4px;
+    margin-left: 30px;
+}
+input[type="checkbox"]{
+    margin-left: 30px;
 }
 input[type="submit"]:hover{
     background-color: rgb(10, 159, 209);
@@ -66,7 +72,7 @@ input[type="submit"]:hover{
 .details>form>a{
     font-size: 15px;
     color:rgb(6, 167, 225);text-decoration:none;
-    margin-left: 70px;
+    margin-left: 120px;
     padding-bottom: 80px;
     
 }

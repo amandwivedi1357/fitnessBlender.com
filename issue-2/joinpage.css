@@ -10,6 +10,7 @@
     height: 300px;
     margin-left: 150px;
     margin-bottom: 50px;
+    
 }
 .inner1>h1{
     font-weight: lighter;
@@ -27,6 +28,7 @@
     height: 320px;
     margin-left: 50px;
     margin-top: 18px;
+    width: 90%;
 }
 .container2{
     margin-top: 10px;
@@ -42,12 +44,15 @@ height: 100%;
 text-align: center;
 line-height: 30px;
 background-color: aliceblue;
+padding-top: 50px;
 }
 #card1>h1{
     font-weight: lighter;
+    margin-bottom: 20px;
 }
 #card1>p{
-    color:  rgb(107, 103, 103);;
+    color:  rgb(107, 103, 103);
+    margin-bottom: 20px;
 }
 #card1+#card1{
     background-color: rgb(237, 239, 239);
@@ -76,6 +81,7 @@ margin: auto;
 height: auto;
 border-collapse: collapse;
 border:0px solid white;
+margin-top: 60px;
 }
 table tr { 
 border:0px solid white;
@@ -87,8 +93,9 @@ width: 100%;
 }
 td>img{
     height: 30px;
-    margin-left: 50px;
-    margin-right: -20px;
+    margin-left: 100px;
+    margin-right: -10px;
+    width: 40px;
 }
 .table>tr>td:nth-child(1){
     width: 10%;
@@ -103,6 +110,7 @@ td>img{
     cursor: pointer;
     background-color: rgb(30, 30, 30);
     color: aliceblue;
+    margin: 30px;
 }
 #td1{
     text-align: center;
@@ -122,6 +130,7 @@ td>img{
 }
 .inner1>h1{
     margin-top: 80px;
+    margin-bottom: 30px;
 }
 .container3>.inner1:nth-child(1){
     width: 60%;
@@ -134,7 +143,9 @@ width: 120px;
 height: 40px;
 color: white;
 border-radius: 4px;
+margin: 30px 0px;
 }
 .inner1>img{
     height: 350px;
+    width: 90%;
 }
