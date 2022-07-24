@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -52,7 +53,8 @@ img {
 .nav_bar ul ul {
     position: absolute;
 	display: none;
-	background-color: #222;
+	background-color: rgb(44, 42, 62);
+    border: 1px dashed gray;
 	top: 60px;
 	text-align: left;
     left: 0px;
@@ -91,9 +93,9 @@ img {
 .nav_bar>.nd ul {
     position: absolute;
 	display: none;
-	background-color: #222;
-    
+	background-color: rgb(44, 42, 62);
 	top: 70px;
+    border: 1px dashed gray;
 	text-align: left;
     left: 1000px;
     width: 250px;
@@ -103,4 +105,15 @@ img {
 .nd ul li {
     width: 250px;
     
+}
+.login>li>div>h3{
+font-weight: lighter;
+}
+#join{
+    border-radius: 3px;
+    background-color: blue;
+}
+#sign{
+    background-color: aliceblue;
+    border-radius: 3px;
 }
